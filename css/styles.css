@@ -1,22 +1,22 @@
 p {
     font-size: 35px;
     font-weight: bold;
-    font-family:'Franklin Gothic Medium';
-    color: #222222; 
+    font-family: Calibri;
+    color: #6b8ed1; 
     text-align: center;
 }
 
 body {
-    background-color: #ffffff; 
+    background-color: #e6f0ff; 
 }
 
 .b {
     padding: 5px;
     margin: 10px auto;
     max-width: 700px;
-    background-color: #f2f2f2; 
+    background-color: #cce0ff; 
     outline-style: auto;
-    outline-color: #cccccc; 
+    outline-color: #b3d1ff; 
     margin-bottom: 20px;
     border-radius: 12px;
 }
@@ -24,8 +24,8 @@ body {
 .subtitulo {
     font-size: 20px;
     font-weight: bold;
-    font-family: 'Franklin Gothic Medium';
-    color: #222222; 
+    font-family: Calibri;
+    color: #6b8ed1; 
     margin: 40px;
     text-align: left;
 }
@@ -34,23 +34,24 @@ body {
     padding: 16px;
     margin: 20px auto;          
     max-width: 600px; 
-    background-color: #fafafa; 
+    background-color: #e6f2ff; 
     outline-style: auto;
-    outline-color: #dddddd; 
+    outline-color: #cce6ff; 
     font-size: 15px;
     text-align: left;
-    color: #000000;
+    color: #4a6fb3;
     border-radius: 10px;
 }
 
 .contato:hover {
-    background-color: #ffffff; 
+    outline: none;
+    background-color: #cce6ff; 
     box-shadow: 0 4px 10px #0000001a; 
     transform: translateY(-2px); 
 }
 
 .contato:focus {
-    background-color: #e8e8e8; 
+    background-color: #b3d1ff; 
     box-shadow: 0 4px 10px rgba(0,0,0,0.1);
     transform: translateY(-2px);
     outline: none; 
@@ -60,10 +61,51 @@ body {
 .contato .nome {
     font-family: Calibri;
     font-weight: bold;
-    color: #222222; 
+    color: #6b8ed1; 
 }
 
 .contato .email, .contato .telefone {
     font-family: Calibri;
-    color: #555555; 
+    color: #4a6fb3; 
+}
+
+button {
+    background-color: #e6f2ff;
+    font-family: Calibri;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 16px;
+    border-radius: 10px;
+    margin: 20px auto;
+    margin-top: 5px;
+    margin-left: 30px;
+    text-align: left;
+    outline-style: auto;
+    outline-color: #cce6ff; 
+}
+
+button:hover {
+    outline: none;
+    background-color: #cce6ff; 
+    box-shadow: 0 4px 10px #0000001a; 
+    transform: translateY(-2px); 
+}
+
+.cadastro {
+    padding: 16px;
+    margin: 20px auto;          
+    max-width: 600px; 
+    background-color: #e6f2ff; 
+    outline-style: auto;
+    outline-color: #cce6ff; 
+    font-size: 16px;
+    text-align: left;
+    color: #4a6fb3;
+    border-radius: 10px; 
+}
+
+.cadastro .info {
+   font-family: Calibri;
+   font-weight: bold;
+   color: #4a6fb3; 
 }
